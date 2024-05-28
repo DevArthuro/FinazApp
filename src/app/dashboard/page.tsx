@@ -1,5 +1,5 @@
-import BodyLanding from "@/components/bodyLanding";
-import Header from "@/components/headerLanding";
+import BodyLanding from "@/components/landing/bodyLanding";
+import Header from "@/components/landing/headerLanding";
 import React from "react";
 
 const Dashboard = () => {
