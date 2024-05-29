@@ -1,5 +1,14 @@
-import Image from "next/image";
+import BodyLanding from "@/components/landing/bodyLanding";
+import Header from "@/components/landing/headerLanding";
+import React from "react";
 
-export default function Home() {
-  return <h1>Home page</h1>;
-}
+const Dashboard = () => {
+  return (
+    <div>
+      <Header />
+      <BodyLanding />
+    </div>
+  );
+};
+
+export default Dashboard;

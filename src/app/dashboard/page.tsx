@@ -1,14 +1,7 @@
-import BodyLanding from "@/components/landing/bodyLanding";
-import Header from "@/components/landing/headerLanding";
 import React from "react";
 
 const Dashboard = () => {
-  return (
-    <div>
-      <Header />
-      <BodyLanding />
-    </div>
-  );
+  return <div>Dashboard</div>;
 };
 
 export default Dashboard;
