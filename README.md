@@ -5,6 +5,7 @@
 - **next js**
 - **tailwind**
 - **shadcn/ui**
+- **clerk**
 
 # Pages to support UI
 
