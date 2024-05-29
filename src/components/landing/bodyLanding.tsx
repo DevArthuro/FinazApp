@@ -3,14 +3,19 @@ import React from "react";
 
 const BodyLanding = () => {
   return (
-    <section className="bg-gray-50 flex items-center flex-col">
+    <section
+      className="bg-gray-50 flex items-center flex-col"
+      style={{
+        backgroundImage: "linear-gradient(to bottom, #FF6B35 , #f1c40f)",
+      }}
+    >
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex ">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
             Gestiona tus gatos
             <strong className="font-extrabold sm:block">
               {" "}
-              con <span className="text-primary">FinanzApp</span>.{" "}
+              con <span className="text-[#8A2BE2]">FinanzApp</span>.{" "}
             </strong>
           </h1>
           <p className="mt-4 sm:text-xl/relaxed">
@@ -20,7 +25,7 @@ const BodyLanding = () => {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              className="block w-full rounded bg-primary px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-900 focus:outline-none focus:ring active:bg-blue-900 sm:w-auto"
+              className="block w-full rounded bg-[#8A2BE2] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#8A2BE2] focus:outline-none focus:ring active:bg-[#8A2BE2] sm:w-auto"
               href="#"
             >
               Ver más
