@@ -1,5 +1,5 @@
 {
-  "name": "FinazApp",
+  "name": "finazapp",
   "private": true,
   "scripts": {
     "build": "turbo build",
